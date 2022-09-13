@@ -7,9 +7,11 @@ linter:
     prefer_const_constructors: false
     unnecessary_brace_in_string_interps: false
     prefer_const_literals_to_create_immutables: false
+    sort_child_properties_last : false
 analyzer:
   errors:
-     curly_braces_in_flow_control_structures: error
-     prefer_const_constructors: error
-     unnecessary_brace_in_string_interps: error
-     prefer_const_literals_to_create_immutables: error
+     curly_braces_in_flow_control_structures: warning
+     prefer_const_constructors: warning
+     unnecessary_brace_in_string_interps: warning
+     prefer_const_literals_to_create_immutables: warning
+     sort_child_properties_last : warning
