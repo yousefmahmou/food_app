@@ -56,7 +56,7 @@ class _TabsScreenState extends State<TabsScreen> {
           BottomNavigationBarItem(
             icon: Icon(Icons.favorite),
             label: 'Favorite',
-          )
+          ),
         ],
       ),
     );
